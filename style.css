@@ -16,6 +16,8 @@
     border: 1px solid;
     display: flex;
     flex-direction: column;
+    border-radius: 2%;
+    background-color: #111111;
 }
 
 .result {
@@ -27,6 +29,8 @@
     justify-content: flex-end;
     align-items: center;
     padding-right: 10px;
+    border-radius: 10%;
+    background-color: #90827b;
 }
 
 .digits {
@@ -43,6 +47,39 @@
 
 button {
     flex: 1;
+    border-radius: 10%;
+}
+
+.top3 {
+    background-color: #009adc;
+}
+
+.top3:hover {
+    background-color: #00dcdc;
+}
+
+.number,
+#numberDot {
+    background-color: #0c567d;
+}
+
+.number:hover,
+#numberDot:hover {
+    background-color: #0e6c9e;
+}
+
+.operator,
+#numberResult {
+    background-color: #fd9619e0;
+}
+
+.operator:hover,
+#numberResult:hover {
+    background-color: #f1bc0bf1;
+}
+
+.clicked {
+    background-color: aqua;
 }
 
 button#number0 {

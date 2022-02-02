@@ -74,9 +74,11 @@ numbers.forEach(number => {
 //THE OPERATIONS
 // Function that does all this is down
 addNumber.addEventListener('click', calculateWithoutEqual)
-    //Subtraction
+
+//Subtraction
 subtractNumber.addEventListener('click', calculateWithoutEqual)
-    //Multiplication
+
+//Multiplication
 multiplyNumber.addEventListener('click', calculateWithoutEqual)
     //Division
 divideNumber.addEventListener('click', calculateWithoutEqual)
@@ -193,3 +195,15 @@ displayCheck.forEach(button => {
 
 
 })
+
+// window.addEventListener('keydown', (e) => {
+//     const keySupport = document.querySelectorAll('button');
+//     keySupport.forEach(button => {
+//         if (button.innerText === e.key) {
+
+
+//             display.innerHTML += e.key;
+//         }
+
+//     })
+// }) to be added
